@@ -33,7 +33,7 @@
 
         .page { display: none; animation: fadeIn 0.3s ease; }
         .active { display: block; }
-    @keyframes fadeIn {
+        @keyframes fadeIn {
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
@@ -70,7 +70,7 @@
 
         .sop-section {
             background: white;
-           border-radius: 15px;
+            border-radius: 15px;
             padding: 25px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
@@ -180,7 +180,8 @@ const recipeData = {
     "義大利麵系列": [
         {
             name: "泡菜辣肉醬義大利麵",
-            image: "",
+            // 已帶入你提供的 Google Drive 圖片連結 (轉換為可顯示的縮圖路徑)
+            image: "https://drive.google.com/thumbnail?id=1pc-gXd6MvHPu6wTc3TDbyfBq-5A7vABO&sz=w1000",
             ingredients: [
                 "義大利麵 180g（預煮）",
                 "特製辣肉醬 100g",
@@ -196,7 +197,7 @@ const recipeData = {
         },
         {
             name: "韓式烤肉義大利麵",
-            image: "",
+            image: "images/korean-bbq-pasta.jpg",
             ingredients: [
                 "義大利麵 180g（預煮）",
                 "板腱牛 100g（逆紋切）",
