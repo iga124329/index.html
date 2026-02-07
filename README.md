@@ -33,7 +33,7 @@
 
         .page { display: none; animation: fadeIn 0.3s ease; }
         .active { display: block; }
-        @keyframes fadeIn {
+    @keyframes fadeIn {
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
@@ -70,7 +70,7 @@
 
         .sop-section {
             background: white;
-            border-radius: 15px;
+           border-radius: 15px;
             padding: 25px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
@@ -146,16 +146,6 @@
             <h3>🍲 湯品鍋物系列</h3>
             <p>包含豆腐鍋、雞湯、辣炒年糕等品項</p>
         </div>
-
-        <div class="card" onclick="showPage2('炸物系列')">
-            <h3>🍗 炸物系列</h3>
-            <p>點擊查看炸物品項</p>
-        </div>
-
-        <div class="card" onclick="showPage2('單點系列')">
-            <h3>🥗 單點系列</h3>
-            <p>點擊查看單點品項</p>
-        </div>
     </div>
 
     <div id="page2" class="page">
@@ -190,7 +180,7 @@ const recipeData = {
     "義大利麵系列": [
         {
             name: "泡菜辣肉醬義大利麵",
-            image: "泡菜肉醬義大利麵.jpg",
+            image: "",
             ingredients: [
                 "義大利麵 180g（預煮）",
                 "特製辣肉醬 100g",
@@ -206,7 +196,7 @@ const recipeData = {
         },
         {
             name: "韓式烤肉義大利麵",
-            image: "韓式烤肉義大利麵.jpg",
+            image: "",
             ingredients: [
                 "義大利麵 180g（預煮）",
                 "板腱牛 100g（逆紋切）",
@@ -226,7 +216,7 @@ const recipeData = {
     "湯品鍋物系列": [
         {
             name: "辣炒年糕",
-            image: "辣炒年糕.jpg",
+            image: "",
             ingredients: [
                 "年糕 156g",
                 "魚板 10g",
@@ -241,22 +231,6 @@ const recipeData = {
                 "加入起司加熱融化",
                 "撒芝麻後出餐"
             ]
-        }
-    ],
-    "炸物系列": [
-        {
-            name: "韓式炸雞",
-            image: "韓式炸雞.jpg",
-            ingredients: ["雞肉份量", "炸雞粉", "特製醬汁"],
-            steps: ["下鍋油炸", "裹上醬汁", "出餐"]
-        }
-    ],
-    "單點系列": [
-        {
-            name: "韓式小菜",
-            image: "小菜.jpg",
-            ingredients: ["當日小菜"],
-            steps: ["裝盤出餐"]
         }
     ]
 };
