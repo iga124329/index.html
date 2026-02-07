@@ -180,6 +180,7 @@ const recipeData = {
     "義大利麵系列": [
         {
             name: "泡菜辣肉醬義大利麵",
+            // 帶入成品照片檔名
             image: "泡菜肉醬義大利麵.jpg",
             ingredients: [
                 "義大利麵 180g（預煮）",
@@ -196,6 +197,7 @@ const recipeData = {
         },
         {
             name: "韓式烤肉義大利麵",
+            // 帶入成品照片檔名
             image: "韓式烤肉義大利麵.jpg",
             ingredients: [
                 "義大利麵 180g（預煮）",
@@ -216,6 +218,7 @@ const recipeData = {
     "湯品鍋物系列": [
         {
             name: "辣炒年糕",
+            // 帶入成品照片檔名
             image: "辣炒年糕.jpg",
             ingredients: [
                 "年糕 156g",
